@@ -11,3 +11,6 @@ led,buzzer,Thermal Imaging Camera(TIC),pi_Camera
 - buzzer=18
 - red=14
 - green=15
+
+## 마스크 착용여부 감지 모델
+- [achonyws님의 깃허브](https://github.com/gachonyws/face-mask-detector)에 있는 face_mask_detector 모델을 가져와 목적에 맞춰 수정
