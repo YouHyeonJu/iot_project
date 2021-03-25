@@ -15,7 +15,7 @@ buzzer = Buzzer(18)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(red,GPIO.OUT)
 GPIO.setup(green,GPIO.OUT)
-GPIO.setup(23, GPIO.IN)
+
 
 
 #low range of the sensor (this will be blue on the screen)
