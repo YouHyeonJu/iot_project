@@ -83,7 +83,7 @@ def Processing():
 
   except:
     pass
-  locs = np.array(locs,dtype='uint8')
+  locs = np.array(locs,dtype='uint16')
   locs = locs.tolist()
   result = {'locs':locs, \
             'labels':labels}
