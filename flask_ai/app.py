@@ -4,12 +4,8 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 from flask import Flask, request
 import numpy as np
-import tensorflow as tf
-import imutils
 import json
-import math
 import cv2
-import os
 
 from tensorflow.python.keras.backend import dtype
 
