@@ -5,7 +5,6 @@ import time
 import requests
 import numpy as np
 import json
-import re
 
 #Temperature check lib
 from Adafruit_AMG88xx import Adafruit_AMG88xx
