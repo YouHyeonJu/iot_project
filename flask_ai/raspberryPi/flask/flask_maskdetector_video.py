@@ -42,7 +42,7 @@ while True:
 
 
     headers = {'Content-Type':'application/json'}
-    address = "http://10.120.74.238:1022/processing"
+    address = #"http://xxx.xxx.xxx.xxx:port/processing" <- input your pc ip address
     data = {'frame':pixels.tolist()}
 
     result = requests.post(address, data=json.dumps(data), headers=headers)
