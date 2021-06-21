@@ -5,8 +5,8 @@
 
  **온도가 37.5°C 이상**이 되면 **적색등과 부저**가 울리게 하는 프로젝트입니다.  
  
- ![하드웨어 설계 윗판](./하드웨어 설계 윗판.jpg)
- ![하드웨어 설계](./하드웨어 설계.jpg)
+ ![하드웨어 설계 윗판](./https://github.com/maettuki/iot_project/하드웨어 설계 윗판.jpg)
+ ![하드웨어 설계](./https://github.com/maettuki/iot_project/하드웨어 설계.jpg)
  
 ## 하드웨어 설계 
  
