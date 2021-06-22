@@ -16,12 +16,12 @@ class npEncoder(json.JSONDecoder):
     return json.JSONDecoder.default(self,obj)
   
 print("얼굴 감지 모델 로딩중...")
-prototxtPath = 'D:\\App\\face_detector\\deploy.prototxt'
-weightPath = 'D:\\App\\face_detector\\res10_300x300_ssd_iter_140000.caffemodel'
+prototxtPath = '.\\face_detector\\deploy.prototxt'
+weightPath = '.\\face_detector\\res10_300x300_ssd_iter_140000.caffemodel'
 faceNet = cv2.dnn.readNet(prototxtPath,weightPath)
 
 print('얼굴 마스크 감지 모델 로딩중...')
-maskNet = load_model('D:\\App\\mask_detector.model')
+maskNet = load_model('.\\mask_detector.model')
 
 
 def detect_and_predict_mask(frame):
